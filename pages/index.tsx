@@ -26,6 +26,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@ShunDeveloper" />
+        <meta name="twitter:title" content="Twitter Cardの使い方" />
+        <meta
+          name="twitter:description"
+          content="Twitter Cardを自分のブログに導入してみたいと思い練習で作成しました. 下記に導入のやり方を書いたので良ければご参照下さい"
+        />
         <meta
           name="twitter:image"
           content="https://twitter-card-nu.vercel.app/TwitterCard.png"
@@ -33,11 +38,6 @@ const Home: NextPage = () => {
         <meta
           name="twitter:image:alt"
           content="私のブログで使う予定のTwitterカード"
-        />
-        <meta name="twitter:title" content="Twitter Cardの使い方" />
-        <meta
-          name="twitter:description"
-          content="Twitter Cardを自分のブログに導入してみたいと思い練習で作成しました. 下記に導入のやり方を書いたので良ければご参照下さい"
         />
       </Head>
       <main className="bg-slate-50 px-[10%] py-[5%]">
