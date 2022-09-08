@@ -26,7 +26,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@ShunDeveloper" />
-        <meta name="twitter:image" content="/TwitterCard.png" />
+        <meta
+          name="twitter:image"
+          content="https://twitter-card-nu.vercel.app/TwitterCard.png"
+        />
         <meta
           name="twitter:image:alt"
           content="私のブログで使う予定のTwitterカード"
