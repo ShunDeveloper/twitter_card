@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   const code_attribution2: string =
     '<meta name="twitter:site" content="@ShunDeveloper" />';
   const code_image: string =
-    '<meta name="twitter:image" content="/path_to_image_dir/TwitterCard.png" />';
+    '<meta name="twitter:image" content="/path_to_image_dir/twitter_card.png" />';
   const code_image_alt: string =
     '<meta name="twitter:image:alt" content="私のブログで使う予定のTwitterカード" />';
   const code_content1: string =
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         />
         <meta
           name="twitter:image"
-          content="https://twitter-card-nu.vercel.app/TwitterCard.png"
+          content="https://twitter-card-nu.vercel.app/twitter_card.png"
         />
         <meta
           name="twitter:image:alt"
