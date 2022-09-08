@@ -5,6 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ["Noto Sans JP"],
+      ubuntu: ["Ubuntu"],
+      mono: ["Ubuntu Mono"],
+    },
     extend: {},
   },
   plugins: [],
