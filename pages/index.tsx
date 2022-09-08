@@ -102,7 +102,7 @@ const Home: NextPage = () => {
           <br />
           <br />
           <Image
-            src="/TwitterCard.png"
+            src="/twitter_card.png"
             alt="Picture of the author"
             width={2048}
             height={1024}
