@@ -29,9 +29,7 @@ const Home: NextPage = () => {
 const TitleBox = () => {
   return (
     <div>
-      <h1 className="text-5xl font-ubuntu text-slate-900">
-        How to use Twitter Card
-      </h1>
+      <h1 className="title">How to use Twitter Card</h1>
       <hr className="text-slate-500 text-xl my-5" />
     </div>
   );

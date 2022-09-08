@@ -5,27 +5,36 @@
 @tailwind utilities;
 
 code {
-  @apply bg-slate-200 block w-[100%] px-[5%] py-[1%] rounded-xl my-5 leading-relaxed font-mono text-[18px] text-slate-700;
+  @apply w-[100%] px-[5%] py-[1%] my-5 text-[18px];
+  @apply bg-slate-200 text-slate-700 block rounded-xl leading-relaxed font-mono break-words;
 }
 
 div.quote {
-  @apply bg-slate-100 block w-[100%] px-[5%] py-[1%] rounded-xl my-5;
+  @apply w-[100%] px-[5%] py-[1%]  my-5;
+  @apply bg-slate-100 break-words rounded-xl;
 }
 
 div.article-box {
   @apply bg-slate-50 px-[10%] py-[5%];
 }
 
+h1.title {
+  @apply text-4xl md:text-5xl;
+  @apply font-ubuntu text-slate-900;
+}
+
 h2.subtitle {
-  @apply text-3xl font-sans py-10 font-bold text-slate-700;
+  @apply text-3xl md:py-5 xl:py-10;
+  @apply text-slate-700 font-sans font-bold;
 }
 
 hr.botted {
-  @apply border-t-[3px] border-dotted border-slate-300 my-10;
+  @apply my-8 xl:my-10;
+  @apply border-slate-300 border-t-[3px] border-dotted;
 }
 
 main.main-container {
-  @apply bg-slate-200 px-[15%];
+  @apply bg-slate-200 md:px-[5%] lg:px-[15%];
 }
 
 p {
@@ -38,5 +47,6 @@ p.quote-text {
 }
 
 span.inline-code {
-  @apply bg-slate-800 text-slate-50 font-sans py-1 px-2 mx-2 rounded-lg;
+  @apply md:py-1 px-2 mx-2;
+  @apply bg-slate-800 text-slate-50 font-sans rounded-lg;
 }
