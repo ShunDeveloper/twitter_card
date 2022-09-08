@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   const code_attribution1: string =
     '<meta name="twitter:domain" content="twitter-card-nu.vercel.app" />';
   const code_attribution2: string =
-    '<meta name="twitter:creator" content="@ShunDeveloper" />';
+    '<meta name="twitter:site" content="@ShunDeveloper" />';
   const code_image: string =
     '<meta name="twitter:image" content="/path_to_image_dir/TwitterCard.png" />';
   const code_image_alt: string =
@@ -26,7 +26,6 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@ShunDeveloper" />
-        <meta name="twitter:domain" content="twitter-card-nu.vercel.app" />
         <meta name="twitter:image" content="/TwitterCard.png" />
         <meta
           name="twitter:image:alt"
